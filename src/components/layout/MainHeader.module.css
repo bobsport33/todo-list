@@ -1,0 +1,33 @@
+header {
+  background-color: var(--color-primary);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: var(--color-light);
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+.links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+}
+
+.link {
+  color: var(--color-secondary);
+  margin-right: 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-tertiary);
+}

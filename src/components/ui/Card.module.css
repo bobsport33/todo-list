@@ -1,0 +1,13 @@
+.card {
+  color: var(--color-light);
+  height: 100%;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  background-image: linear-gradient(
+    to right bottom,
+    var(--color-tertiary),
+    var(--color-secondary)
+  );
+}

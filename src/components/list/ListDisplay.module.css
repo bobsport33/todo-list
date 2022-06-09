@@ -1,0 +1,39 @@
+.lists {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .lists {
+    width: 100%;
+    margin-left: 0;
+    grid-gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .lists {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .lists {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .lists {
+    width: 98%;
+    margin-left: 1%;
+  }
+}

@@ -1,0 +1,75 @@
+.display {
+  margin-top: 4rem;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.list-header {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+.form {
+  font-size: 1.5rem;
+}
+
+.new-title {
+  margin-bottom: 1rem;
+}
+
+.label {
+  margin-right: 1rem;
+}
+
+.input {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.new-item {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+
+.btn {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  border-radius: 5px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  box-shadow: 0 0.5rem 1rem black;
+  transition: all 0.1s;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: translateY(2px);
+  box-shadow: 0 0.25rem 0.5rem black;
+}
+
+@media screen and (max-width: 1200px) {
+  .display {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .display {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .display {
+    width: 98%;
+    margin-left: 1%;
+  }
+}
